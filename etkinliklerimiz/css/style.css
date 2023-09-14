@@ -562,11 +562,11 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-brand{
-	color: #27b36a;
+	color: #0D2F55;
 }
 
 .navbar-fixed-top.opaque .navbar-brand:hover{
-	color: #27b36a;
+	color: #0D2F55;
 }
 
 .navbar {
@@ -579,7 +579,7 @@ iframe {
 }
 
 .navbar-toggler {
-    border: 1px solid #27b36a;
+    border: 1px solid #0D2F55;
 }
 
 .navbar-toggler-icon {
@@ -588,7 +588,7 @@ iframe {
 }
 
 .navbar-toggler-icon i {
-    color: #27b36a;
+    color:#0D2F55;
     vertical-align: middle;
 }
 
@@ -621,7 +621,7 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover{
-	color: #27b36a!important;
+	color: #0D2F55!important;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -629,7 +629,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav .current a {
-    color:#27b36a!important;
+    color:#0D2F55!important;
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -648,21 +648,21 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn:hover {
-	color: #27b36a!important;
+	color: #0D2F55!important;
 	background: #fff;
 	border: 1px solid #fff;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn {
-	border: 1px solid #27b36a;
-	color: #27b36a!important;
+	border: 1px solid #0D2F55;
+	color: #0D2F55!important;
 	background: transparent;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn:hover {
 	color: #fff!important;
-	background: #27b36a;
-	border: 1px solid #27b36a;
+	background: #0D2F55;
+	border: 1px solid #0D2F55;
 }
 
 /* ========================================================== */
