@@ -554,7 +554,7 @@ iframe {
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-weight: 500;
-	color: #fff;
+	color: #000000;
 }
 
 .navbar-brand:hover{
@@ -562,11 +562,11 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-brand{
-	color: #27b36a;
+	color: #0D2F55;
 }
 
 .navbar-fixed-top.opaque .navbar-brand:hover{
-	color: #27b36a;
+	color: #0D2F55;
 }
 
 .navbar {
@@ -579,7 +579,7 @@ iframe {
 }
 
 .navbar-toggler {
-    border: 1px solid #27b36a;
+    border: 1px solid #0D2F55;
 }
 
 .navbar-toggler-icon {
@@ -588,13 +588,13 @@ iframe {
 }
 
 .navbar-toggler-icon i {
-    color: #27b36a;
+    color:#0D2F55;
     vertical-align: middle;
 }
 
 .navbar-fixed-top {
 	position: absolute!important;
-	background-color: transparent;
+	background-color: #1A5EA9;
 	border-bottom: none;
 	transition: background-color 0.25s ease 0s;
 }
@@ -621,7 +621,7 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover{
-	color: #27b36a!important;
+	color: #0D2F55!important;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -629,7 +629,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav .current a {
-    color:#27b36a!important;
+    color:#0D2F55!important;
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -648,21 +648,21 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn:hover {
-	color: #27b36a!important;
+	color: #0D2F55!important;
 	background: #fff;
 	border: 1px solid #fff;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn {
-	border: 1px solid #27b36a;
-	color: #27b36a!important;
+	border: 1px solid #0D2F55;
+	color: #0D2F55!important;
 	background: transparent;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn:hover {
-	color: #fff!important;
-	background: #27b36a;
-	border: 1px solid #27b36a;
+	color: #0D2F55!important;
+	background: #0D2F55;
+	border: 1px solid #0D2F55;
 }
 
 /* ========================================================== */
@@ -814,7 +814,7 @@ p.contact-info i{
 	z-index: 999;
   	padding-top: 290px;
   	padding-bottom: 240px;
-  	background: url(../images/bg10.jpg) bottom center no-repeat;
+  	background: url(../images/ts_background.jpg) bottom center no-repeat; 
 	background-size: cover;
 }
 
@@ -1452,7 +1452,7 @@ ul.benefits.white li i {
 @media (max-width: 991px) {
 
 	.navbar-fixed-top {
-	    background-color: #fff!important;
+	    background-color: #1a5eaa!important;
 	}
 
 	.navbar-fixed-top.opaque {
@@ -1460,7 +1460,7 @@ ul.benefits.white li i {
 	}
 
 	.navbar-fixed-top {
-	    border-bottom: 1px solid #efefef;
+	    border-bottom: 1px solid #1a5eaa;
 	}
 
 	.navbar-fixed-top .navbar-nav > li.discover-link {
@@ -1532,7 +1532,7 @@ ul.benefits.white li i {
 
 	.navbar-toggle {
 	    margin-bottom: 0;
-	    border: 1px solid #9f9f9f!important;
+	    border: 1px solid #1a5eaa!important;
 	}
 
 	.home-section h1 {
