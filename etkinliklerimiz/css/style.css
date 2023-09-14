@@ -1451,6 +1451,106 @@ ul.benefits.white li i {
 	padding-bottom: 0;
 }
 
+.card {
+	perspective: 150rem;
+	position: relative;
+	height: 40rem;
+	width: 40rem;
+	box-shadow: none;
+	background: none;
+  }
+  
+  .card-side {
+	height: 35rem;
+	border-radius: 30px;
+	transition: all 0.8s ease;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	padding: 2rem;
+	color: white;
+  }
+  
+  .card-side.back {
+	transform: rotateY(-180deg);
+	background-color: #4158D0;
+	background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+  }
+  
+
+
+  .card:hover .card-side.front {
+	transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+	transform: rotateY(0deg);
+  }
+
+  /* KART RENGİ */
+  #bbofront, #bboback {
+	background: linear-gradient(130deg, black, orange);
+  }
+  #tsfront, #tsback {
+	background: linear-gradient(130deg, black, blue);
+  }
+  #dcfront, #dcback {
+	background: linear-gradient(130deg, black, blue);
+  }
+  #gjfront, #gjback {
+	background: linear-gradient(130deg, white,#C611DD);
+  }
+  #dgtlzdfront, #dgtlzdback {
+	background: linear-gradient(130deg, white, #3b8f8d);
+  }
+  #tdfront, #tdback {
+	background: linear-gradient(130deg, orange, purple);
+  }
+  #csfront, #csback {
+	background: linear-gradient(130deg, #451212, #541256);
+  }
+  #btsfront, #btsback {
+	background: linear-gradient(130deg, #5a028f , #731f7d);
+  }
+
+
+
+  
+  .event {
+	height: 85%;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	border-radius: 20px;
+  }
+
+  .eventname {
+	position: relative;
+	font-size: 30px;
+	color: #000;
+	margin-top: 9%;
+	margin-left: 10%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .eventdescription {
+	color:#000;
+  }
+
+  .eventcards {
+	padding-top: 8rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  }
+  .hugecontainer {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+  }
 /* ========================================================== */
 /* 			             08. MEDIA QUERIES                    */
 /* ========================================================== */
@@ -1591,4 +1691,11 @@ ul.benefits.white li i {
 		margin-bottom: 40px;
 	}
 
+}
+
+@media (max-width: 991px ) {
+	.hugecontainer {
+		display: flex;
+		flex-direction: column;
+	}
 }
