@@ -7,13 +7,13 @@ $(window).on('load', function(){
 	/*   Navigation Background Color                              */
 	/* ========================================================== */
 	
-	/*$(window).on('scroll', function() {
+	$(window).on('scroll', function() {
 		if($(this).scrollTop() > 450) {
 			$('.navbar-fixed-top').addClass('opaque');
 		} else {
 			$('.navbar-fixed-top').removeClass('opaque');
 		}
-	});*/
+	});
  
 	
 	/* ========================================================== */
@@ -112,8 +112,4 @@ $(window).on('load', function(){
 		gallery: {
 		  enabled:false
 		}
-	});  
-
-	/* ========================================================== */
-	/*   Team                                                     */
-	/* ========================================================== */
+	});
