@@ -594,7 +594,7 @@ iframe {
 
 .navbar-fixed-top {
 	position: absolute!important;
-	background-color: transparent;
+	background-color: #1A5EA9;
 	border-bottom: none;
 	transition: background-color 0.25s ease 0s;
 }
@@ -608,7 +608,7 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a{
-	color:#000;
+	color:#fff;
 	font-size: 17px !important;
 	line-height: 30px !important;
 	padding: 10px 15px!important;
@@ -638,7 +638,7 @@ iframe {
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn {
 	border: 1px solid #fff;
-	color: #000000!important;
+	color: #fff!important;
 	background: transparent;
 	border-radius: 8px 8px;
 	padding: 12px 18px!important;
@@ -750,18 +750,18 @@ ul.footer_social li a i {
   padding:0;
   font-size:26px!important;
   line-height: 26px!important;
-  color: #1e90ff;
   transition: all .5s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
 }
 
+
 ul.footer_social li a i.fa-twitter {
   color: #4099ff;
 }
 
-ul.footer_social li a i.fa-pinterest {
-  color: #C92228;
+ul.footer_social li a i.fa-youtube {
+	color: #FF0000;
 }
 
 ul.footer_social li a i.fa-facebook-square {
@@ -772,13 +772,19 @@ ul.footer_social li a i.fa-instagram {
   color: #8a3ab9;
 }
 
-ul.footer_social li a i.fa-skipe {
-  color: #00aff0;
+ul.footer_social li a i.fa-github {
+	color: #171515;
 }
 
-ul.footer_social li a i.fa-dribble {
-  color: #ea4c89;
+ul.footer_social li a i.fa-linkedin {
+	color: #0072b1;
 }
+
+ul.footer_social li a i.fa-medium {
+	color: black;
+}
+
+
 
 ul.footer_social li a i:hover {
 	color:#27b36a!important;
