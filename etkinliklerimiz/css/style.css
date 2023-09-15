@@ -1565,7 +1565,7 @@ ul.benefits.white li i {
 @media (max-width: 991px) {
 
 	.navbar-fixed-top {
-	    background-color: #fff!important;
+	    background-color: #1a5eaa!important;
 	}
 
 	.navbar-fixed-top.opaque {
@@ -1573,7 +1573,7 @@ ul.benefits.white li i {
 	}
 
 	.navbar-fixed-top {
-	    border-bottom: 1px solid #efefef;
+	    border-bottom: 1px solid #1a5eaa;
 	}
 
 	.navbar-fixed-top .navbar-nav > li.discover-link {
