@@ -1451,29 +1451,31 @@ ul.benefits.white li i {
 	padding-bottom: 0;
 }
 
-.card {
-	perspective: 150rem;
+.eventcard {
 	position: relative;
-	height: 40rem;
-	width: 40rem;
+	height: 35rem;
+	width: 35rem;
 	box-shadow: none;
 	background: none;
+	margin-top: 3%;
+	margin-right: 40px;
+	margin-left: 40px;
   }
   
-  .card-side {
-	height: 35rem;
+  .eventcard-side {
+	height: 100%;
 	border-radius: 30px;
 	transition: all 0.8s ease;
 	backface-visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 80%;
+	width: 100%;
 	padding: 2rem;
 	color: white;
   }
   
-  .card-side.back {
+  .eventcard-side.back {
 	transform: rotateY(-180deg);
 	background-color: #4158D0;
 	background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
@@ -1481,11 +1483,11 @@ ul.benefits.white li i {
   
 
 
-  .card:hover .card-side.front {
+  .eventcard:hover .eventcard-side.front {
 	transform: rotateY(180deg);
   }
   
-  .card:hover .card-side.back {
+  .eventcard:hover .eventcard-side.back {
 	transform: rotateY(0deg);
   }
 
@@ -1495,6 +1497,7 @@ ul.benefits.white li i {
   }
   #tsfront, #tsback {
 	background: linear-gradient(130deg, black, blue);
+
   }
   #dcfront, #dcback {
 	background: linear-gradient(130deg, black, blue);
@@ -1531,9 +1534,9 @@ ul.benefits.white li i {
 	position: relative;
 	font-size: 30px;
 	color: #000;
-	margin-top: 9%;
-	margin-left: 10%;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	margin-top: 7.5%;
   }
 
   .eventdescription {
@@ -1547,10 +1550,9 @@ ul.benefits.white li i {
 	flex-direction: column;
   }
   .hugecontainer {
-	position: relative;
 	display: flex;
-	justify-content: space-evenly;
-  }
+	justify-content: space-between;
+}
 /* ========================================================== */
 /* 			             08. MEDIA QUERIES                    */
 /* ========================================================== */
@@ -1693,9 +1695,35 @@ ul.benefits.white li i {
 
 }
 
-@media (max-width: 991px ) {
+@media (max-width: 1109.60px ) {
 	.hugecontainer {
 		display: flex;
 		flex-direction: column;
 	}
+
+	.eventcard {
+		position: relative;
+		height: 19rem;
+		width: 15rem;
+		box-shadow: none;
+		background: none;
+		margin-top: 3%;
+		margin-right: 40px;
+		margin-left: 40px;
+	  }
+
+	  .eventname {
+		position: relative;
+		font-size: 15px;
+		color: #000;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		text-align: center;
+		margin-top: 7.5%;
+	  }
+
+	  .eventdescription {
+		color:#000;
+		font-size: 10px;
+	  }
+
 }
