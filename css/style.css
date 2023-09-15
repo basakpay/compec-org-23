@@ -706,7 +706,6 @@ iframe {
 .footer p > a {
 	font-size: 17px;
 	color: #1A5EA9;
-	text-decoration:underline;
 }
 /* bunun rengi daha iyi ne olabilir */
 .footer p > a:hover {
@@ -732,8 +731,9 @@ a.footer-links:hover {
     transition: all .5s ease-in-out;
 }
 
-.footer .fa-envelope {
+.footer .fas {
 	font-size: 20px;
+	margin-right: 2px;
 }
 
 /* Footer Social Icons */
