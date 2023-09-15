@@ -734,8 +734,10 @@ ul.footer_social{
 	max-width:1140px;
 	display:block;
 	margin:0 auto;
-	padding-top:15px;
-	text-align:center;
+	padding-top: 15px;
+	justify-content: space-between;
+	align-items:flex-end;
+	text-align: center;
 }
 
 ul.footer_social li{
@@ -783,11 +785,11 @@ ul.footer_social li a i.fa-github {
 ul.footer_social li a i.fa-linkedin {
   color: #0e76a8;
 }
-
+/*
 ul.footer_social li a i:hover {
 	color:#1A5EA9!important;
 }
-
+*/
 /* Footer Contact */
 p.contact-info{
 	margin-bottom:8px;
