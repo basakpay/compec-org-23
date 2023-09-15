@@ -562,11 +562,11 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-brand{
-	color: #0D2F55;
+	color: #FFF;
 }
 
 .navbar-fixed-top.opaque .navbar-brand:hover{
-	color: #0D2F55;
+	color: #FFF;
 }
 
 .navbar {
@@ -579,7 +579,7 @@ iframe {
 }
 
 .navbar-toggler {
-    border: 1px solid #0D2F55;
+    border: 1px solid #fff;
 }
 
 .navbar-toggler-icon {
@@ -588,7 +588,7 @@ iframe {
 }
 
 .navbar-toggler-icon i {
-    color:#0D2F55;
+    color:#fff;
     vertical-align: middle;
 }
 
@@ -601,8 +601,8 @@ iframe {
 
 .navbar-fixed-top.opaque {
 	position: fixed!important;
-	background-color: #fff!important;
-	border-bottom: 1px solid #efefef;
+	background-color: #1A5EA9!important;
+	border-bottom: 1px solid #1A5EA9;
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04)!important;
 	transition: all 0.25s ease-in-out 0s;
 }
@@ -617,7 +617,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a{
-	color:#405263;
+	color:#FFF;
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover{
@@ -629,7 +629,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav .current a {
-    color:#0D2F55!important;
+    color:#FFF!important;
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -654,8 +654,8 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn {
-	border: 1px solid #0D2F55;
-	color: #0D2F55!important;
+	border: 1px solid #FFF;
+	color: #FFF!important;
 	background: transparent;
 }
 
@@ -664,6 +664,11 @@ iframe {
 	background: #0D2F55;
 	border: 1px solid #0D2F55;
 }
+
+.navbar *:focus {
+	outline: none;
+}
+
 
 /* ========================================================== */
 /* 			                03. FOOTER                        */
