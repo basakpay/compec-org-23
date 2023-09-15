@@ -112,5 +112,4 @@ $(window).on('load', function(){
 		gallery: {
 		  enabled:false
 		}
-	});  
- 
+	});
