@@ -549,7 +549,7 @@ iframe {
 /* ========================================================== */
 /* 			               02. MENU-NAV                       */
 /* ========================================================== */
-
+/* aşağıda bi yerde Biz kimiz yazısı toggle, aşağı inmişken rengi değişmiyor ben bulamadım yerini */
 .navbar-brand{
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
@@ -562,11 +562,11 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-brand{
-	color: #0D2F55;
+	color: #fff;
 }
 
 .navbar-fixed-top.opaque .navbar-brand:hover{
-	color: #0D2F55;
+	color: #fff;
 }
 
 .navbar {
@@ -601,14 +601,14 @@ iframe {
 
 .navbar-fixed-top.opaque {
 	position: fixed!important;
-	background-color: #fff!important;
-	border-bottom: 1px solid #efefef;
+	background-color: #1A5EA9!important;
+	border-bottom: 1px solid #1A5EA9;
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04)!important;
 	transition: all 0.25s ease-in-out 0s;
 }
 
 .navbar-fixed-top .navbar-nav > li > a{
-	color:#fff;
+	color:#ffffff;
 	font-size: 17px !important;
 	line-height: 30px !important;
 	padding: 10px 15px!important;
@@ -617,7 +617,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a{
-	color:#405263;
+	color:#fff;
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover{
@@ -629,7 +629,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque .navbar-nav .current a {
-    color:#0D2F55!important;
+    color:#fff!important;
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -650,18 +650,18 @@ iframe {
 .navbar-fixed-top .navbar-nav > li > a.discover-btn:hover {
 	color: #0D2F55!important;
 	background: #fff;
-	border: 1px solid #fff;
+	border: 1px solid #0D2F55;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn {
-	border: 1px solid #0D2F55;
-	color: #0D2F55!important;
+	border: 1px solid #ffffff;
+	color: #fff!important;
 	background: transparent;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn:hover {
 	color: #0D2F55!important;
-	background: #0D2F55;
+	background: #fff;
 	border: 1px solid #0D2F55;
 }
 
@@ -686,10 +686,10 @@ iframe {
 	background-color: #fff;
 	border-top: 1px solid #efefef;
 }
-
+/* footer sembollerinin renkleri */
 .footer-top i {
     margin-bottom: 10px;
-    color: #27b36a;
+    color: #1A5EA9;
     font-size: 60px;
 }
 
@@ -701,12 +701,12 @@ iframe {
 
 .footer p > a {
 	font-size: 17px;
-	color: #27b36a;
+	color: #1A5EA9;
 	text-decoration:underline;
 }
-
+/* bunun rengi daha iyi ne olabilir */
 .footer p > a:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
 }
 
@@ -719,11 +719,11 @@ a.footer-links {
     display: block;
     font-size: 17px;
     margin-bottom: 2px;
-    color: #454545;
+    color: #1A5EA9;
 }
 
 a.footer-links:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
     transition: all .5s ease-in-out;
 }
@@ -760,8 +760,12 @@ ul.footer_social li a i.fa-twitter {
   color: #4099ff;
 }
 
-ul.footer_social li a i.fa-pinterest {
+ul.footer_social li a i.fa-youtube {
   color: #C92228;
+}
+
+ul.footer_social li a i.fa-medium {
+	color: black;
 }
 
 ul.footer_social li a i.fa-facebook-square {
@@ -772,16 +776,16 @@ ul.footer_social li a i.fa-instagram {
   color: #8a3ab9;
 }
 
-ul.footer_social li a i.fa-skipe {
-  color: #00aff0;
+ul.footer_social li a i.fa-github {
+  color: black;
 }
 
-ul.footer_social li a i.fa-dribble {
-  color: #ea4c89;
+ul.footer_social li a i.fa-linkedin {
+  color: #0e76a8;
 }
 
 ul.footer_social li a i:hover {
-	color:#27b36a!important;
+	color:#1A5EA9!important;
 }
 
 /* Footer Contact */
@@ -907,7 +911,7 @@ p.contact-info i{
 .main-services h3 a{
 	font-size: 22px;
 	font-weight: 500;
-	color: #27b36a;
+	color: #1A5EA9;
 }
 
 .main-services h4{
@@ -924,7 +928,7 @@ p.contact-info i{
 .main-services i {
     margin-bottom: 15px;
     font-size: 50px;
-    color: #27b36a;
+    color: #1A5EA9;
 }
 
 /* ========================================================== */
@@ -1095,8 +1099,8 @@ p.register-form-terms{
 	line-height: 22px;
 	font-weight: 500;
 	color: #fff;
-	background-color: #27b36a;
-	border: 1px solid #27b36a;
+	background-color: #1A5EA9;
+	border: 1px solid #1A5EA9;
     box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.27);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
     letter-spacing: 1px;
@@ -1110,8 +1114,9 @@ p.register-form-terms{
 
 .btn-green:hover{
 	box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
-	color: #fff!important;
-	background:#25ad65;
+	color: #0D2F55!important;
+	background:#ffffff;
+	border: 1px solid #ffffff;
 }
 
 .btn-green.small, .btn-green-line.small, .btn-white.small, .btn-white-border.small {
