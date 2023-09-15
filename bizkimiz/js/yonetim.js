@@ -24,12 +24,12 @@ YonetimInfo.YK.forEach((person) => {
 							<p class="card-text"><b>${person.gorev}</b></p>
 							<ul class="list-inline">
 								<li class="list-inline-item">
-									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.linkedin}>
+									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.linkedin || "#"} style="color: #1a5ea9;">
 										<i class="fa fa-linkedin"></i>
 									</a>
 								</li>
 								<li class="list-inline-item">
-									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.insta}>
+									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.insta || "#"} style="color: #8a3ab9;">
 									    <i class="fa fa-instagram"></i>
 									</a>
 								<li>
@@ -64,12 +64,12 @@ YonetimInfo.Liderler.forEach((person) => {
 							<p class="card-text"><b>${person.gorev}</b></p>
 							<ul class="list-inline">
 								<li class="list-inline-item">
-									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.linkedin || "#"}>
+									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.linkedin || "#"} style="color: #1a5ea9;">
 										<i class="fa fa-linkedin"></i>
 									</a>
 								</li>
 								<li class="list-inline-item">
-									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.insta || "#"}>
+									<a class="social-icon text-xs-center" target="_blank" rel="noopener noreferrer" href=${person.insta || "#"} style="color: #8a3ab9;">
 									    <i class="fa fa-instagram"></i>
 									</a>
 								<li>

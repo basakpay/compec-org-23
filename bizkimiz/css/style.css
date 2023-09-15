@@ -700,7 +700,7 @@ iframe {
 
 .footer p > a {
 	font-size: 17px;
-	color: #27b36a;
+	color: #017df7;
 	text-decoration:underline;
 }
 
@@ -759,8 +759,12 @@ ul.footer_social li a i.fa-twitter {
   color: #4099ff;
 }
 
-ul.footer_social li a i.fa-pinterest {
+ul.footer_social li a i.fa-youtube {
   color: #C92228;
+}
+
+ul.footer_social li a i.fa-medium {
+	color: black;
 }
 
 ul.footer_social li a i.fa-facebook-square {
@@ -771,16 +775,16 @@ ul.footer_social li a i.fa-instagram {
   color: #8a3ab9;
 }
 
-ul.footer_social li a i.fa-skipe {
-  color: #00aff0;
+ul.footer_social li a i.fa-github {
+  color: black;
 }
 
-ul.footer_social li a i.fa-dribble {
-  color: #ea4c89;
+ul.footer_social li a i.fa-linkedin {
+  color: #0e76a8;
 }
 
 ul.footer_social li a i:hover {
-	color:#27b36a!important;
+	color:#1A5EA9!important;
 }
 
 /* Footer Contact */
@@ -1529,7 +1533,6 @@ ul.benefits.white li i {
 	.main-services {
 	    margin: 20px 5px 25px 5px;
 	}
-
 }
 
 @media (max-width: 375px) {
