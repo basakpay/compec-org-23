@@ -579,7 +579,7 @@ iframe {
 }
 
 .navbar-toggler {
-    border: 1px solid #0D2F55;
+    border: 1px solid #fff;
 }
 
 .navbar-toggler-icon {
@@ -588,7 +588,7 @@ iframe {
 }
 
 .navbar-toggler-icon i {
-    color:#0D2F55;
+    color:#fff;
     vertical-align: middle;
 }
 
@@ -673,6 +673,7 @@ iframe {
 	position: relative;
 	overflow: hidden;
     display: block;
+    padding-top: 80px;
     background-color: #fafbfc;
 }
 
@@ -685,10 +686,10 @@ iframe {
 	background-color: #fff;
 	border-top: 1px solid #efefef;
 }
-
+/* footer sembollerinin renkleri */
 .footer-top i {
     margin-bottom: 10px;
-    color: #27b36a;
+    color: #1A5EA9;
     font-size: 60px;
 }
 
@@ -700,12 +701,12 @@ iframe {
 
 .footer p > a {
 	font-size: 17px;
-	color: #017df7;
+	color: #1A5EA9;
 	text-decoration:underline;
 }
-
+/* bunun rengi daha iyi ne olabilir */
 .footer p > a:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
 }
 
@@ -718,11 +719,11 @@ a.footer-links {
     display: block;
     font-size: 17px;
     margin-bottom: 2px;
-    color: #454545;
+    color: #1A5EA9;
 }
 
 a.footer-links:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
     transition: all .5s ease-in-out;
 }
@@ -781,10 +782,6 @@ ul.footer_social li a i.fa-github {
 
 ul.footer_social li a i.fa-linkedin {
   color: #0e76a8;
-}
-
-ul.footer_social li a i:hover {
-	color:#1A5EA9!important;
 }
 
 /* Footer Contact */
@@ -1511,9 +1508,6 @@ ul.benefits.white li i {
 	    margin: 0 8px!important;
 	}
 
-    .padding-top-120 {
-	    padding-top: 30px !important;
-	}
 
 	input.contact-submit{
 		margin-bottom: 30px;
