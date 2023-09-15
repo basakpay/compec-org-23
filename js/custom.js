@@ -28,11 +28,11 @@ $(window).on('load', function(){
 	/* ========================================================== */
 	/*   Navigation Color                                         */
 	/* ========================================================== */
-	
+	/*
 	$('#navbarCollapse').onePageNav({
 		filter: ':not(.external)'
 	});
-
+	*/
 
 	/* ========================================================== */
 	/*   SmoothScroll                                             */
@@ -40,6 +40,7 @@ $(window).on('load', function(){
 	
 	$(".navbar-nav li a, a.scrool").on('click', function(e) {
 		
+		/*
 		var full_url = this.href;
 		var parts = full_url.split("#");
 		var trgt = parts[1];
@@ -48,7 +49,12 @@ $(window).on('load', function(){
 		
 		$('html,body').animate({scrollTop:target_top -70}, 1000);
 			return false;
-		
+		*/
+		//YUKARDAKI COMMENTTEKI KOD SMOOTHSCROLL ICIN, SAYFA ICI GEZDIRIYOR. ONUN YERINE DIGER SAYFALARA YONLENDIRECEK SEKILDE MODIFY ETTIM - ASAF
+
+		var href = $(this).attr('href');
+		window.location.href = href;
+
 	});		
 	
 
