@@ -234,7 +234,7 @@ iframe {
 
 .section-white {
 	background: #fff;
-	padding: 90px 0 100px 0;
+	padding: 110px 0 100px 0;
 }
 
 .section-grey{
@@ -826,10 +826,11 @@ p.contact-info i{
 .home-section {
 	position: relative;
 	z-index: 999;
-  	padding-top: 290px;
+  	padding-top: 200px;
   	padding-bottom: 240px;
   	background: url(../images/ts_background.jpg) bottom center no-repeat; 
 	background-size: cover;
+	height: 100vh;
 }
 
 .home-section-overlay{
