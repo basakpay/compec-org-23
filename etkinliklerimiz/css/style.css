@@ -1499,7 +1499,7 @@ ul.benefits.white li i {
 	background: linear-gradient(130deg, #292110, #907430);
   }
   #tsfront, #tsback {
-	background: linear-gradient(140deg, #FBE0E9, #FAC03A, #2287C8, #E6164F, #69A458);
+	background: linear-gradient(130deg, #0B0B0B, #0A0462);
   }
   #dcfront, #dcback {
 	background: linear-gradient(130deg, #0C0C33, #0A0462);
@@ -1518,6 +1518,12 @@ ul.benefits.white li i {
   }
   #btsfront, #btsback {
 	background: linear-gradient(130deg, #42022F , #500F69);
+  }
+  #hbfront, #hbback {
+	background: linear-gradient(130deg, white, #0A0462);
+  }
+  #tnfront, #tnback {
+	background: linear-gradient(130deg, white, #1a5eaa)
   }
 
 
@@ -1556,6 +1562,10 @@ ul.benefits.white li i {
 	display: flex;
 	justify-content: space-between;
 	gap: 100px;
+}
+
+ul.footer_social li a i:hover {
+    color:#1A5EA9!important;
 }
 /* ========================================================== */
 /* 			             08. MEDIA QUERIES                    */
