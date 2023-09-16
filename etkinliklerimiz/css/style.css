@@ -1463,8 +1463,6 @@ ul.benefits.white li i {
 	box-shadow: none;
 	background: none;
 	margin-top: 3%;
-	margin-right: 40px;
-	margin-left: 40px;
   }
   
   .eventcard-side {
@@ -1557,6 +1555,7 @@ ul.benefits.white li i {
   .hugecontainer {
 	display: flex;
 	justify-content: space-between;
+	gap: 100px;
 }
 /* ========================================================== */
 /* 			             08. MEDIA QUERIES                    */
@@ -1700,35 +1699,21 @@ ul.benefits.white li i {
 
 }
 
-@media (max-width: 1109.60px ) {
+@media (max-width: 991px) {
 	.hugecontainer {
 		display: flex;
 		flex-direction: column;
+		gap: 3px;
 	}
 
 	.eventcard {
 		position: relative;
-		height: 19rem;
-		width: 15rem;
+		min-width: 300px;
+		min-height: 300px;
+		max-width: 80vw;
+		max-height: 80vw;
 		box-shadow: none;
 		background: none;
 		margin-top: 3%;
-		margin-right: 40px;
-		margin-left: 40px;
 	  }
-
-	  .eventname {
-		position: relative;
-		font-size: 15px;
-		color: #000;
-		font-family:Verdana, Geneva, Tahoma, sans-serif;
-		text-align: center;
-		margin-top: 7.5%;
-	  }
-
-	  .eventdescription {
-		color:#000;
-		font-size: 10px;
-	  }
-
 }
