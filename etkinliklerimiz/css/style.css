@@ -1496,20 +1496,19 @@ ul.benefits.white li i {
 
   /* KART RENGİ */
   #bbofront, #bboback {
-	background: linear-gradient(130deg, black, orange);
+	background: linear-gradient(130deg, #292110, #907430);
   }
   #tsfront, #tsback {
-	background: linear-gradient(130deg, black, blue);
-
+	background: linear-gradient(140deg, #FBE0E9, #FAC03A, #2287C8, #E6164F, #69A458);
   }
   #dcfront, #dcback {
-	background: linear-gradient(130deg, black, blue);
+	background: linear-gradient(130deg, #0C0C33, #0A0462);
   }
   #gjfront, #gjback {
 	background: linear-gradient(130deg, white,#C611DD);
   }
   #dgtlzdfront, #dgtlzdback {
-	background: linear-gradient(130deg, white, #3b8f8d);
+	background: linear-gradient(130deg, #082330, #0085A8);
   }
   #tdfront, #tdback {
 	background: linear-gradient(130deg, orange, purple);
@@ -1518,7 +1517,7 @@ ul.benefits.white li i {
 	background: linear-gradient(130deg, #451212, #541256);
   }
   #btsfront, #btsback {
-	background: linear-gradient(130deg, #5a028f , #731f7d);
+	background: linear-gradient(130deg, #42022F , #500F69);
   }
 
 
@@ -1535,11 +1534,12 @@ ul.benefits.white li i {
 
   .eventname {
 	position: relative;
-	font-size: 30px;
+	font-size: clamp(10px,4.5vw,30px);
 	color: #000;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	margin-top: 7.5%;
+	font-weight: bold;
   }
 
   .eventdescription {
@@ -1716,4 +1716,21 @@ ul.benefits.white li i {
 		background: none;
 		margin-top: 3%;
 	  }
+}
+
+@media (min-width: 991px) and (max-width: 1270px) {
+	.eventcard {
+		position: relative;
+		max-height: 40vw;
+		max-width: 40vw;
+		box-shadow: none;
+		background: none;
+		margin-top: 3%;
+	  }
+
+	  .hugecontainer {
+		display: flex;
+		justify-content: space-between;
+		gap: 60px;
+	}
 }
