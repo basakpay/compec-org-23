@@ -1519,6 +1519,12 @@ ul.benefits.white li i {
   #btsfront, #btsback {
 	background: linear-gradient(130deg, #42022F , #500F69);
   }
+  #hbfront, #hbback {
+	background: linear-gradient(130deg, white, #0A0462);
+  }
+  #tnfront, #tnback {
+	background: linear-gradient(130deg, white, #1a5eaa)
+  }
 
 
 
