@@ -1563,6 +1563,10 @@ ul.benefits.white li i {
 	justify-content: space-between;
 	gap: 100px;
 }
+
+ul.footer_social li a i:hover {
+    color:#1A5EA9!important;
+}
 /* ========================================================== */
 /* 			             08. MEDIA QUERIES                    */
 /* ========================================================== */
