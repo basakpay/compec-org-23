@@ -690,10 +690,10 @@ iframe {
 	background-color: #fff;
 	border-top: 1px solid #efefef;
 }
-
+/* footer sembollerinin renkleri */
 .footer-top i {
     margin-bottom: 10px;
-    color: #27b36a;
+    color: #1A5EA9;
     font-size: 60px;
 }
 
@@ -705,12 +705,11 @@ iframe {
 
 .footer p > a {
 	font-size: 17px;
-	color: #27b36a;
-	text-decoration:underline;
+	color: #1A5EA9;
 }
-
+/* bunun rengi daha iyi ne olabilir */
 .footer p > a:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
 }
 
@@ -723,23 +722,30 @@ a.footer-links {
     display: block;
     font-size: 17px;
     margin-bottom: 2px;
-    color: #454545;
+    color: #1A5EA9;
 }
 
 a.footer-links:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
     transition: all .5s ease-in-out;
+}
+
+.footer .fas {
+	font-size: 20px;
+	margin-right: 2px;
 }
 
 /* Footer Social Icons */
 ul.footer_social{
 	width:100%;
 	max-width:1140px;
-	display:block;
+	display: flex;
 	margin:0 auto;
-	padding-top:15px;
-	text-align:center;
+	padding-top: 15px;
+	justify-content: center;
+	align-items:flex-end;
+	text-align: center;
 }
 
 ul.footer_social li{
@@ -752,20 +758,24 @@ ul.footer_social li a i {
   display: inline-block;
   margin:0 8px;
   padding:0;
-  font-size:26px!important;
+  font-size:22px!important;
   line-height: 26px!important;
+  color: #1e90ff;
   transition: all .5s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
 }
-
 
 ul.footer_social li a i.fa-twitter {
   color: #4099ff;
 }
 
 ul.footer_social li a i.fa-youtube {
-	color: #FF0000;
+  color: #C92228;
+}
+
+ul.footer_social li a i.fa-medium {
+	color: black;
 }
 
 ul.footer_social li a i.fa-facebook-square {
@@ -777,23 +787,17 @@ ul.footer_social li a i.fa-instagram {
 }
 
 ul.footer_social li a i.fa-github {
-	color: #171515;
+  color: black;
 }
 
 ul.footer_social li a i.fa-linkedin {
-	color: #0072b1;
+  color: #0e76a8;
 }
-
-ul.footer_social li a i.fa-medium {
-	color: black;
-}
-
-
-
+/*
 ul.footer_social li a i:hover {
-	color:#27b36a!important;
+	color:#1A5EA9!important;
 }
-
+*/
 /* Footer Contact */
 p.contact-info{
 	margin-bottom:8px;
