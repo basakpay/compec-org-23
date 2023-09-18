@@ -1605,7 +1605,7 @@ ul.benefits.white li i {
 
 }
 
-@media (max-height: 768px) {
+@media (max-height: 720px) {
 	.arrow-down {
 		display: none;
 	}
