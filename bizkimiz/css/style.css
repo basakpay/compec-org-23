@@ -878,6 +878,17 @@ p.contact-info i{
     100% { transform: translateY(-10px); }
 }
 
+#about li::before {
+	content: "♾";
+	color: #1a5ea9;
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+#about hr {
+	margin: 3px;
+}
+
 /* ========================================================== */
 /* 			                05. FEATURES                      */
 /* ========================================================== */
