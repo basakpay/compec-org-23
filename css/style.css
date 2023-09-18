@@ -1496,6 +1496,9 @@ ul.benefits.white li i {
 		color: #27b36a;
 	}
 
+	.arrow-down {
+		display: none;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1603,10 +1606,4 @@ ul.benefits.white li i {
 		margin-bottom: 40px;
 	}
 
-}
-
-@media (max-width: 992px) {
-	.arrow-down {
-		display: none;
-	}
 }
