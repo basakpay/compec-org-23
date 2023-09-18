@@ -24,6 +24,43 @@ Version: 1.0
 
 --- */
 
+.grid-container31 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* 3 columns */
+	gap: 20px; /* Adjust the gap as needed */
+	text-align: center;
+}
+
+.container31 {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.header31 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.paragraph31 {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.line31 {
+	margin-top: 10px;
+	border-top: 1px solid #ccc;
+}
+
+.word-container31 {
+	display: flex;
+	flex-wrap: wrap; /* Allow containers to wrap to the next line */
+}
+
+.word31 {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
 /* ========================================================== */
 /* 			               01. GENERAL LAYOUT                 */
 /* ========================================================== */
