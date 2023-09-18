@@ -25,7 +25,8 @@ const YonetimInfo = {
 			isim: "Asaf Kanlıpıçak",
 			gorev: "Veri Bilimi ve AR-GE Direktörü",
 			foto: "yonetim/asaf_kanlipicak.jpg",
-			linkedin: "https://www.linkedin.com/in/asaf-kanlipicak/"
+			linkedin: "https://www.linkedin.com/in/asaf-kanlipicak/",
+			insta: "https://www.instagram.com/asaf.kanlipicak/"
 		},
 		{
 			isim: "Begüm Gökmen",
