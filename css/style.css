@@ -1607,3 +1607,9 @@ ul.benefits.white li i {
 	}
 
 }
+
+@media (max-height: 720px) {
+	.arrow-down {
+		display: none;
+	}
+}
