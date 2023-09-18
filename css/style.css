@@ -1605,8 +1605,13 @@ ul.benefits.white li i {
 
 }
 
-@media (max-height: 720px) {
+@media (max-height: 768px) {
+	/*
 	.arrow-down {
 		display: none;
+	}
+	*/
+	.home-section {
+		padding-top: 220px;
 	}
 }
