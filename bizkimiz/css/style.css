@@ -677,7 +677,7 @@ iframe {
 	position: relative;
 	overflow: hidden;
     display: block;
-    padding-top: 80px;
+    padding-top: 0px;
     background-color: #fafbfc;
 }
 
