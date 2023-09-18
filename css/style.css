@@ -866,9 +866,8 @@ p.contact-info i{
 .arrow-down {
 	position: absolute;
 	left: 50%;
+	bottom: 8%;
 	margin-left:-25px;
-	bottom: 0;
-	margin-bottom: -200px;
 }
 
 .arrow-down i{
@@ -1604,4 +1603,10 @@ ul.benefits.white li i {
 		margin-bottom: 40px;
 	}
 
+}
+
+@media (max-height: 768px) {
+	.arrow-down {
+		display: none;
+	}
 }
