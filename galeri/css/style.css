@@ -677,7 +677,7 @@ iframe {
 	position: relative;
 	overflow: hidden;
     display: block;
-    padding-top: 80px;
+    padding-top: 0;
     background-color: #fafbfc;
 }
 
@@ -1502,10 +1502,6 @@ ul.benefits.white li i {
 	.home-section {
 		padding-top: 165px;
 	  	padding-bottom: 95px;
-	}
-
-	.footer {
-	    padding-top: 30px;
 	}
 
 	.footer-top i {
