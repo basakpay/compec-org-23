@@ -3,6 +3,7 @@
   }
   
   .slide_viewer {
+	padding-top: 63px;
 	height: calc(100vh - 163px);
 	overflow: hidden;
 	position: relative;
