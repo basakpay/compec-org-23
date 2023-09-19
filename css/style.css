@@ -22,18 +22,30 @@ Version: 1.0
 		f. Features List
 08. MEDIA QUERIES
 
+bbofront
+tsfront
+dcfront
+gjfront
+dgtlzdfront
+tdfront
+csfront
+btsfront
+hbfront
 --- */
 
 .grid-container31 {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr); /* 3 columns */
-	gap: 20px; /* Adjust the gap as needed */
+	grid-template-columns: repeat(3, 1fr); /*çalışıyor gibiydi aşağıda margin 95px ekleyerek 2'li yaptım*/
 	text-align: center;
+    justify-content: center;
+	margin: 10px;
 }
 
 .container31 {
 	border: 1px solid #ccc;
 	padding: 20px;
+	border-radius: 20px;
+	margin: 10px;
 }
 
 .header31 {
@@ -47,7 +59,7 @@ Version: 1.0
 }
 
 .line31 {
-	margin-top: 10px;
+	margin-top: 13px;
 	border-top: 1px solid #ccc;
 }
 
@@ -60,6 +72,25 @@ Version: 1.0
 	margin: 5px;
 	padding: 5px;
 	border: 1px solid #ccc;
+}
+
+@media (max-width: 991px) {
+    .grid-container31 {
+        grid-template-columns: 1fr; /* grid hiç işlemiyor */
+		margin: 10px;
+    }
+    .container31 {
+        margin: 10px auto; /* bu da işlemiyo bişi bozuyo bunları */
+    }
+}	
+.word31 a {
+	font-size: 17px;
+	color: #1A5EA9;
+}
+/* bunun rengi daha iyi ne olabilir */
+.word31 a:hover {
+	color: #0D2F55;
+	text-decoration:underline;
 }
 /* ========================================================== */
 /* 			               01. GENERAL LAYOUT                 */
