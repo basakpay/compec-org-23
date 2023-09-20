@@ -21,31 +21,21 @@ Version: 1.0
 		e. Carousel
 		f. Features List
 08. MEDIA QUERIES
-
-bbofront
-tsfront
-dcfront
-gjfront
-dgtlzdfront
-tdfront
-csfront
-btsfront
-hbfront
 --- */
 
 .grid-container31 {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr); /*çalışıyor gibiydi aşağıda margin 95px ekleyerek 2'li yaptım*/
+	/*çalışıyor gibiydi aşağıda margin 95px ekleyerek 2'li yaptım*/
+	display: flex;
+	flex-direction: column;
 	text-align: center;
-    justify-content: center;
-	margin: 10px;
+    justify-content: space-evenly;
+	align-items: flex-end;
 }
 
 .container31 {
 	border: 1px solid #ccc;
 	padding: 20px;
 	border-radius: 20px;
-	margin: 10px;
 }
 
 .header31 {
@@ -75,13 +65,16 @@ hbfront
 }
 
 @media (max-width: 991px) {
-    .grid-container31 {
-        grid-template-columns: 1fr; /* grid hiç işlemiyor */
-		margin: 10px;
-    }
-    .container31 {
-        margin: 10px auto; /* bu da işlemiyo bişi bozuyo bunları */
-    }
+	.grid-container31 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.container31 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
 }	
 .word31 a {
 	font-size: 17px;
