@@ -1550,7 +1550,7 @@ ul.benefits.white li i {
   }
 
   .eventdescription {
-	color:#000;
+	font-size: 1vw;
   }
 
   .eventcards {
@@ -1568,6 +1568,17 @@ ul.benefits.white li i {
 	#tn {
 		visibility: hidden !important;
 	}
+
+
+	/* YAZI RENKLERİ */
+
+	#bbotext, #tstext, #dctext, #dgtlzdtext, #tdtext, #cstext, #bctext {
+		color: white;
+	}
+	#gjtext, #hbtext {
+		color: black;
+	}
+
 /*
 ul.footer_social li a i:hover {
     color:#1A5EA9!important;
@@ -1732,6 +1743,7 @@ ul.footer_social li a i:hover {
 		background: none;
 		margin-top: 3%;
 	  }
+
 }
 
 @media (min-width: 991px) and (max-width: 1270px) {
@@ -1749,4 +1761,16 @@ ul.footer_social li a i:hover {
 		justify-content: space-between;
 		gap: 60px;
 	}
+}
+
+@media (min-width: 500px) and (max-width: 991px) {
+	.eventdescription {
+		font-size: 2vw;
+	  }
+}
+
+@media (max-width: 500px) {
+	.eventdescription {
+		font-size: 1.5vw;
+	  }
 }
