@@ -24,6 +24,63 @@ Version: 1.0
 
 --- */
 
+.login-page{
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-align: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.form-signin .checkbox {
+	font-weight: 400;
+}
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin a {
+	color: #017df7 !important;
+}
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.duyuru h3 {
+	font-family: "ProximaNovaBold";
+	color: #1b1b2f;
+}
+.text-left li::before {
+	content: "♾";
+	color: #1a5ea9;
+	font-weight: bold;
+	margin-right: 8px;
+}
+
 /* ========================================================== */
 /* 			               01. GENERAL LAYOUT                 */
 /* ========================================================== */
@@ -677,7 +734,7 @@ iframe {
 	position: relative;
 	overflow: hidden;
     display: block;
-    padding-top: 80px;
+    padding-top: 0px;
     background-color: #fafbfc;
 }
 
@@ -690,10 +747,10 @@ iframe {
 	background-color: #fff;
 	border-top: 1px solid #efefef;
 }
-
+/* footer sembollerinin renkleri */
 .footer-top i {
     margin-bottom: 10px;
-    color: #27b36a;
+    color: #1A5EA9;
     font-size: 60px;
 }
 
@@ -705,12 +762,12 @@ iframe {
 
 .footer p > a {
 	font-size: 17px;
-	color: #27b36a;
+	color: #1A5EA9;
 	text-decoration:underline;
 }
-
+/* bunun rengi daha iyi ne olabilir */
 .footer p > a:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
 }
 
@@ -723,11 +780,11 @@ a.footer-links {
     display: block;
     font-size: 17px;
     margin-bottom: 2px;
-    color: #454545;
+    color: #1A5EA9;
 }
 
 a.footer-links:hover {
-	color: #27b36a;
+	color: #0D2F55;
 	text-decoration:underline;
     transition: all .5s ease-in-out;
 }
@@ -754,18 +811,22 @@ ul.footer_social li a i {
   padding:0;
   font-size:26px!important;
   line-height: 26px!important;
+  color: #1e90ff;
   transition: all .5s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
 }
-
 
 ul.footer_social li a i.fa-twitter {
   color: #4099ff;
 }
 
 ul.footer_social li a i.fa-youtube {
-	color: #FF0000;
+  color: #C92228;
+}
+
+ul.footer_social li a i.fa-medium {
+	color: black;
 }
 
 ul.footer_social li a i.fa-facebook-square {
@@ -777,21 +838,11 @@ ul.footer_social li a i.fa-instagram {
 }
 
 ul.footer_social li a i.fa-github {
-	color: #171515;
+  color: black;
 }
 
 ul.footer_social li a i.fa-linkedin {
-	color: #0072b1;
-}
-
-ul.footer_social li a i.fa-medium {
-	color: black;
-}
-
-
-
-ul.footer_social li a i:hover {
-	color:#27b36a!important;
+  color: #0e76a8;
 }
 
 /* Footer Contact */
