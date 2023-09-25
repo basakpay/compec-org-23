@@ -91,7 +91,7 @@
     <!--end header -->
 
     <div class="login-page text-center padding-top-100">
-        <form class="form-signin" onSubmit={onSubmit} id="registrationForm">
+        <form class="form-signin" id="registrationForm">
             <img class="mb-4" src="images/compec_mavi.svg" alt="" width="250" height="150" />
             <h1 class="h3 mb-3 font-weight-normal">Compec'e kaydolun!</h1>
             <h2 class="h5 mb-2 font-weight-normal">Compec'e online olarak üye olmak için aşağıda yer alan
@@ -102,41 +102,42 @@
                 Formu birden çok kez doldurmayınız.<br />
             </p>
 
-            <label for="name" class="sr-only">İsminiz</label>
-            <input type="text" id="name" name="name" class="form-control" placeholder="İsminiz - Soyisminiz" required="true" autofocus="" /><br />
+            <p class="h5 mb-2 font-weight-normal">
+                İsim - Soyisim (Sadece latin harfleri giriniz Örn: "Omer Bayir")
+            </p>
 
-            <label for="surname" class="sr-only">Soyisminiz</label>
-            <input type="text" id="surname" name="surname" class="form-control" placeholder="Soyisminiz" required="true" autofocus="" /><br/>
+            <label for="nameAndSurname" class="sr-only">İsim - Soyisim (Sadece latin harfleri giriniz Örn: "Omer Bayir")</label>
+            <input type="text" id="nameAndSurname" name="nameAndSurname" class="form-control" placeholder="İsim - Soyisim (Sadece latin harfleri giriniz Örn: 'Omer Bayir')" required="true" autofocus="" onkeypress="return sadeceLatinHarf(event)"/><br />
 
             <label for="bolum" class="sr-only">Bölüm</label>
             <p class="form-control">Bölümünüz</p>
             <select id="bolum" name="bolum" class="form-control" required>
                 <option disabled selected value>Seçiniz...</option>
-                <option value="Bilgisayar Mühendisliği">Bilgisayar Mühendisliği</option>
-                <option value="Bilgisayar ve Öğretim Teknolojileri Öğretmenliği">Bilgisayar ve Öğretim Teknolojileri Öğretmenliği</option>
-                <option value="Çeviribilim">Çeviribilim</option>
+                <option value="Bilgisayar Muhendisligi">Bilgisayar Mühendisliği</option>
+                <option value="Bilgisayar ve Ogretim Teknolojileri Ogretmenligi">Bilgisayar ve Öğretim Teknolojileri Öğretmenliği</option>
+                <option value="Ceviribilim">Çeviribilim</option>
                 <option value="Dilbilim">Dilbilim</option>
-                <option value="Elektrik-Elektronik Mühendisliği">Elektrik-Elektronik Mühendisliği</option>
-                <option value="Endüstri Mühendisliği">Endüstri Mühendisliği</option>
+                <option value="Elektrik-Elektronik Muhendisligi">Elektrik-Elektronik Mühendisliği</option>
+                <option value="Endustri Muhendisligi">Endüstri Mühendisliği</option>
                 <option value="Felsefe">Felsefe</option>
-                <option value="Fen Bilgisi Öğretmenliği">Fen Bilgisi Öğretmenliği</option>
+                <option value="Fen Bilgisi Ogretmenligi">Fen Bilgisi Öğretmenliği</option>
                 <option value="Fizik">Fizik</option>
-                <option value="Fizik Öğretmenliği">Fizik Öğretmenliği</option>
+                <option value="Fizik Ogretmenligi">Fizik Öğretmenliği</option>
                 <option value="Hukuk">Hukuk</option>
-                <option value="İktisat">İktisat</option>
-                <option value="İlköğretim Matematik Öğretmenliği">İlköğretim Matematik Öğretmenliği</option>
-                <option value="İngiliz Dili ve Edebiyatı">İngiliz Dili ve Edebiyatı</option>
-                <option value="İngilizce Öğretmenliği">İngilizce Öğretmenliği</option>
-                <option value="İnşaat Mühendisliği">İnşaat Mühendisliği</option>
-                <option value="İşletme">İşletme</option>
+                <option value="Iktisat">İktisat</option>
+                <option value="Ilkogretim Matematik Ogretmenligi">İlköğretim Matematik Öğretmenliği</option>
+                <option value="Ingiliz Dili ve Edebiyatı">İngiliz Dili ve Edebiyatı</option>
+                <option value="Ingilizce Ogretmenliği">İngilizce Öğretmenliği</option>
+                <option value="Insaat Muhendisligi">İnşaat Mühendisliği</option>
+                <option value="Isletme">İşletme</option>
                 <option value="Kimya">Kimya</option>
-                <option value="Kimya Mühendisliği">Kimya Mühendisliği</option>
-                <option value="Kimya Öğretmenliği">Kimya Öğretmenliği</option>
-                <option value="Makine Mühendisliği">Makine Mühendisliği</option>
+                <option value="Kimya Muhendisligi">Kimya Mühendisliği</option>
+                <option value="Kimya Ogretmenligi">Kimya Öğretmenliği</option>
+                <option value="Makine Muhendisligi">Makine Mühendisliği</option>
                 <option value="Matematik">Matematik</option>
-                <option value="Matematik Öğretmenliği">Matematik Öğretmenliği</option>
+                <option value="Matematik Ogretmenligi">Matematik Öğretmenliği</option>
                 <option value="Moleküler Biyoloji ve Genetik">Moleküler Biyoloji ve Genetik</option>
-                <option value="Okul Öncesi Öğretmenliği">Okul Öncesi Öğretmenliği</option>
+                <option value="Okul Öncesi Ogretmenligi">Okul Öncesi Öğretmenliği</option>
                 <option value="Psikoloji">Psikoloji</option>
                 <option value="Rehberlik ve Psikolojik Danışmanlık">Rehberlik ve Psikolojik Danışmanlık</option>
                 <option value="Siyaset Bilimi ve Uluslararası İlişkiler">Siyaset Bilimi ve Uluslararası İlişkiler</option>
@@ -147,7 +148,7 @@
                 <option value="Uluslararası Ticaret">Uluslararası Ticaret</option>
                 <option value="Yönetim Bilişim Sistemleri">Yönetim Bilişim Sistemleri</option>
                 <option value="Diğer">Diğer</option>
-            </select><br />
+            </select><br/>
 
             <label for="sinif" class="sr-only">Sınıf</label>
             <p class="form-control">Sınıfınız</p>
@@ -177,11 +178,17 @@
             <label for="telephone" class="sr-only">Telefon Numaranız</label>
 
             <input
+                type="tel" id="telephone" name="telephone" class="form-control" placeholder="Telefon Numaranız" required="true" autofocus=""
+            /><br/>
+            
+            <!--
+            <input
                 type="tel" id="telephone" name="telephone" class="form-control" placeholder="Telefon Numaranız" required="true" autofocus="" pattern="\(5[0-9]{2}\) [0-9]{3}-[0-9]{4}"
-            /><br />
+            /><br/>
+            -->
 
             <p>
-                Şifreniz en az 6 karakter uzunluğunda olmalıdır ve şunları içermelidir:
+                Şifreniz en az 6 karakter uzunluğunda olmalıdır ve şunları içermelidir (Sadece latin harfleri giriniz):
                 <ul class="text-left">
                     <li>Küçük harf</li>
                     <li>Büyük harf</li>
@@ -195,15 +202,22 @@
             <label for="password2" class="sr-only">Şifrenizi tekrar yazınız</label>
             <input type="password" id="password2" name="password2" class="form-control" placeholder="Şifrenizi tekrar yazınız" required="true" autofocus="" /><br />
 
+        <!--
             <ReCAPTCHA ref={recaptchaRef} sitekey="6LeHPtQZAAAAAIMIQUeifB4lUgiovjaXsTBGFmzx" onChange={captchaFunc} /><br />
+        -->
 
+        <!--
             <p>
                 Aşağıdaki butona tıklayarak yukarıda sağlamış olduğunuz bilgilerin Compec
                 tarafından <a href="/kvkk" target="_blank">KVKK Aydınlatma Metni</a>'ne uygun olarak işlenmesini kabul ettiğinizi
                 beyan etmiş olursunuz.
             </p>
-
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Kaydol</button>
+        -->
+            
+            <button class="btn btn-lg btn-primary btn-block" type="button" id="registrationFormButton">Kaydol</button>
+            <!--
+                <button class="btn btn-lg btn-primary btn-block" type="submit" disabled={hideButton} id="registrationFormButton">Kaydol</button> 
+            -->
         </form>
     </div>
 
@@ -271,7 +285,20 @@
 <script src="js/wow.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/sumbit.js"></script>
+<script>
+    function sadeceLatinHarf(event) {
+        var karakterKodu = event.which || event.keyCode;
 
+        // İzin verilen karakter aralığına bakın (A-Z ve a-z arasındaki harfler)
+        if ((karakterKodu >= 65 && karakterKodu <= 90) || (karakterKodu >= 97 && karakterKodu <= 122)) {
+            return true;
+        } else {
+            event.preventDefault();
+            return false;
+        }
+    }
+</script>
 
 </body>
 </html>
