@@ -1761,16 +1761,26 @@ ul.footer_social li a i:hover {
 		justify-content: space-between;
 		gap: 60px;
 	}
+	p{
+		line-height: normal
+	}
 }
 
 @media (min-width: 500px) and (max-width: 991px) {
 	.eventdescription {
-		font-size: 2vw;
+		font-size: 15px;
 	  }
+	p{
+		line-height: normal
+	}
 }
 
 @media (max-width: 500px) {
 	.eventdescription {
-		font-size: 1.5vw;
+		font-size: 12px;
 	  }
+
+	p{
+		line-height: normal
+	}		
 }
