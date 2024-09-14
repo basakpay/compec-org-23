@@ -1,2 +1,2 @@
-# compec-org-23
-compec.org sitesi 2023 yenilemesi
+# compec-org-24
+compec.org sitesi 2024 yenilemesi
