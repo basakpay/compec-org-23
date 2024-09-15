@@ -1,7 +1,6 @@
 function YonetimKart(props) {
 	return (
-		<div class="image-flip" >
-			<div class="mainflip flip-0">
+		
 				<div class="frontside">
 					<div class="card shadow" >
 						<div class="card-body text-center">
@@ -9,8 +8,7 @@ function YonetimKart(props) {
 							<h4 class="card-title">{props.isim}</h4>
 							<p class="card-text"><b>{props.gorev}</b></p>
 						</div>
-					</div>
-				</div>
+					
 				<div class="backside">
 					<div class="card">
 						<div class="card-body text-center mt-4">

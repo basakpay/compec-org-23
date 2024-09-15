@@ -1,67 +1,69 @@
 const YonetimInfo = {
 	"YK": [
 		{
-			isim: "Emir Yaman Sivrikaya",
+			isim: "Mert Gökyar",
 			gorev: "Yönetim Kurulu Başkanı",
-			foto: "yonetim/emir_yaman_sivrikaya.png",
-			linkedin: "https://www.linkedin.com/in/emir-yaman-sivrikaya/",
-			insta: "https://www.instagram.com/e_yaman4/"
+			foto: "yonetim/mert_gokyar.jpg",
+			linkedin: "https://www.linkedin.com/in/mertgokyar/",
+
 		},
 		{
-			isim: "Seda Uysal",
-			gorev: "Genel Sekreter",
-			foto: "yonetim/seda_uysal.JPG",
-			linkedin: "https://www.linkedin.com/in/seda-uysal/",
-			insta: "https://www.instagram.com/sedaa_uysal/"
+			isim: "Semih Mutlu",
+			gorev: "Yazman ve PR Direktörü",
+			foto: "yonetim/semih_mutlu.jpg",
+			linkedin: "https://www.linkedin.com/in/semihmutsuz/",
+
 		},
 		{
-			isim: "Zeynep Okumuş",
+			isim: "Tuana Yücedağ",
 			gorev: "Kurumsal İletişim ve Finans Direktörü",
-			foto: "yonetim/zeynep_okumus.JPG",
-			linkedin: "https://www.linkedin.com/in/zeynepokumus",
-			insta: "https://www.instagram.com/zeynep.okumuuss/"
+			foto: "yonetim/tuana_yucedag.jpg",
+			linkedin: "https://www.linkedin.com/in/tuana-yucedag/",
+
 		},
 		{
-			isim: "Asaf Kanlıpıçak",
-			gorev: "Veri Bilimi ve AR-GE Direktörü",
-			foto: "yonetim/asaf_kanlipicak.jpg",
-			linkedin: "https://www.linkedin.com/in/asaf-kanlipicak/",
-			insta: "https://www.instagram.com/asaf.kanlipicak/"
+			isim: "Sema Aydın",
+			gorev: " PR ve Oyun Geliştirme Direktörü",
+			foto: "yonetim/sema_aydin.jpg",
+			linkedin: 'https://www.linkedin.com/in/sema-aydin/'
+
 		},
 		{
-			isim: "Begüm Gökmen",
-			gorev: "Teknoloji Direktörü",
-			foto: "yonetim/begum_gokmen.jpg",
-			linkedin: "https://www.linkedin.com/in/begumgokmen/"
+			isim: "Edanur Bozkurt",
+			gorev: "Veri Bilimi Direktörü",
+			foto: "yonetim/edanur_bozkurt.jpg",
+			linkedin: 'https://www.linkedin.com/in/edanur-bozkurt/'
+		},
+
+		{
+			isim: "Oğuz Özer",
+			gorev: "Teknoloji ve Dijital Girişimcilik Direktörü",
+			foto: 'yonetim/default.png',
+			linkedin: "https://www.linkedin.com/in/oğuz-özer-865095247/",
+
 		},
 		{
-			isim: "Güneş Öztürk",
-			gorev: "Bilişim Ödülleri ve PR Direktörü",
-			foto: "yonetim/gunes_ozturk.jpg",
-			linkedin: "https://www.linkedin.com/in/güneş-öztürk-aa4628205/",
-			insta: "https://www.instagram.com/gunesoztrk/"
+			isim: "Hasan Deveci",
+			gorev: "BBÖ ve Blockchain Direktörü",
+			foto: "yonetim/hasan_deveci.jpg",
+			linkedin: "https://linkedin.com",
+
 		},
 		{
-			isim: "Mustafa İnan Aybek",
-			gorev: "PR ve Blockchain Direktörü",
-			foto: "yonetim/mustafa_inan_aybek.jpg",
-			linkedin: "https://www.linkedin.com/in/mustafa-inan-aybek-218564224/",
-			insta: "https://www.instagram.com/mstfaybk/"
+			isim: "Serdar Şen",
+			gorev: "AR-GE ve Teknoloji Direktörü",
+			foto: "yonetim/serdar_sen.jpg",
+			linkedin: "https://www.linkedin.com/in/serdarsenn/"
 		},
 		{
-			isim: "Yusuf Türkay",
-			gorev: "Dijital Girişimcilik Direktörü",
-			foto: "yonetim/yusuf_turkay.JPG",
-			linkedin: "https://www.linkedin.com/in/yusufturkay/"
-		},
-		{
-			isim: "Ahmet Bayır",
-			gorev: "AR-GE ve Oyun Geliştirme Direktörü",
-			foto: "yonetim/ahmet_bayir.JPG",
-			linkedin: "https://www.linkedin.com/in/ahmet-bayir/",
-			insta: "https://www.instagram.com/ahmet.bayir__/"
+			isim: "Hüseyin Emir Akdağ",
+			gorev: "AR-GE Direktörü",
+			foto: "yonetim/default.png",
+			linkedin: "https://www.linkedin.com/in/huseyinemirakdag/",
+
 		}
 	],
+
 	"Liderler": [
 		{
 			isim: "Semih Mutlu",
@@ -114,7 +116,7 @@ const YonetimInfo = {
 		{
 			isim: "Evrim Özdoğan",
 			gorev: "Teknoloji Lideri",
-			foto: "yonetim/evrim_ozdogan.jpg",			
+			foto: "yonetim/evrim_ozdogan.jpg",
 			linkedin: "https://www.linkedin.com/in/evrimozdogan/"
 		},
 		{
@@ -222,3 +224,4 @@ const YonetimInfo = {
 }
 
 export { YonetimInfo }
+
