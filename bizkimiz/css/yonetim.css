@@ -58,6 +58,10 @@ section .section-title {
 	padding: 45px;
 }
 
+.card-body h4 {
+	margin-bottom: 2px;
+}
+
 /*
 .frontside .card .card-title,
 .backside .card .card-title {
@@ -65,12 +69,13 @@ section .section-title {
 }
 */
 .frontside .card .card-body img {
-	width: 180px;
-	height: 180px;
+	width: 160px;
+	height: 160px;
 	border-radius: 50%;
     object-fit: cover;
 	object-position: center;
 	transform: scale(1.2);
+	margin-bottom: 15px;
 }
 
 .hidden-text{

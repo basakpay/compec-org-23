@@ -38,7 +38,7 @@ const YonetimInfo = {
 		{
 			isim: "Oğuz Özer",
 			gorev: "Teknoloji ve Dijital Girişimcilik Direktörü",
-			foto: 'yonetim/default.png',
+			foto: 'yonetim/oguz_ozer.jpg',
 			linkedin: "https://www.linkedin.com/in/oğuz-özer-865095247/",
 
 		},
@@ -46,7 +46,7 @@ const YonetimInfo = {
 			isim: "Hasan Deveci",
 			gorev: "BBÖ ve Blockchain Direktörü",
 			foto: "yonetim/hasan_deveci.jpg",
-			linkedin: "https://linkedin.com",
+			linkedin: "https://www.linkedin.com/in/hasancandeveci0hd/",
 
 		},
 		{
@@ -57,8 +57,8 @@ const YonetimInfo = {
 		},
 		{
 			isim: "Hüseyin Emir Akdağ",
-			gorev: "AR-GE Direktörü",
-			foto: "yonetim/default.png",
+			gorev: "DevTeam ve AR-GE Direktörü",
+			foto: "yonetim/huseyin_emir_akdag.jpg",
 			linkedin: "https://www.linkedin.com/in/huseyinemirakdag/",
 
 		}
