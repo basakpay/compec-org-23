@@ -34,15 +34,9 @@ section .section-title {
 
 #team .card {
 	border-color: rgb(88, 140, 213);
-	background: #eee;
+	background: #e0d4d4;
 	box-sizing: border-box;
 	height: 350px;
-	
-}
-
-.card-body {
-	padding: 25px;
-	
 	
 }
 
@@ -54,12 +48,14 @@ section .section-title {
 	
 }
 
-
-
 .frontside .card {
 	min-width: 340px;
 	max-width: 340px;
 	
+}
+
+.card-body {
+	padding: 45px;
 }
 
 /*
@@ -72,7 +68,9 @@ section .section-title {
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-
+    object-fit: cover;
+	object-position: center;
+	transform: scale(1.2);
 }
 
 .hidden-text{
