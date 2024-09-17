@@ -124,6 +124,7 @@ h2.section-title {
 }
 
 p.section-subtitle {
+	color: #c2c2c2;
     font-size: 18px;
 }
 
@@ -901,18 +902,20 @@ p.contact-info i{
 .home-section {
 	position: relative;
 	z-index: 999;
-  	padding-top: 290px;
+  	padding-top: 440px;
   	padding-bottom: 240px;
+	height: 100vh;
   	background: url(../images/boun.jpg) bottom center no-repeat; 
 	background-size: cover;
 }
 
 .home-section-overlay{
 	width: 100%;
+	height: calc(100vh - 120px);
 	background: #252525;
 	opacity: 0.45;
 	position: absolute;
-	top: 0;
+	top: 120px;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -934,10 +937,10 @@ p.contact-info i{
 }
 
 .arrow-down {
-	position: absolute;
+	position: relative;
 	left: 50%;
 	margin-left:-25px;
-	bottom: 0;
+	bottom: -175px;
 	margin-bottom: -200px;
 }
 
@@ -1550,9 +1553,86 @@ ul.benefits.white li i {
 	padding-bottom: 0;
 }
 
+.headercontainer{
+	display: flex;
+	justify-content: center;
+}
+
+.cardcontainer{
+	max-width: 600px;
+	/*border: 2px solid black;*/
+	border-radius: 20px;
+	margin:auto;
+	padding: 50px;
+}
+.cardcol{
+	display: flex;
+	flex-direction: column;
+	gap:24px;
+
+}
+.cardrow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap:24px;
+}
+.card{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 50%;
+}
+.commiteecardevent{
+	border-top: 1px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0px 0px 10px 10px;
+
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.commiteecardtext{
+	padding: 18px;
+}
+.eventlink{
+	color:#1A5EA9;
+
+}
+
 /* ========================================================== */
 /* 			             08. MEDIA QUERIES                    */
 /* ========================================================== */
+
+@media (max-width: 991px){
+	.cardrow{
+		flex-direction: column;
+		align-items: center;
+	}
+	.card{
+		width: 100%;
+	}
+	.commiteecardevent{
+
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+	.cardcontainer{
+		padding:24px;
+	}
+}
+
+@media (max-width: 767px){
+	.cardtextp{
+		font-size: 13px;
+	}
+	.cardtexttitle{
+		font-size: 17px;
+	}
 
 @media (max-width: 991px) {
 
