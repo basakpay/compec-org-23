@@ -27,6 +27,87 @@ Version: 1.0
 /* ========================================================== */
 /* 			               01. GENERAL LAYOUT                 */
 /* ========================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.image-container img {
+    width: 20%; /* Genişlik, kutucuğun %90'ı kadar olacak */
+    height: auto; /* Yükseklik, genişlik ile orantılı olarak ayarlanacak */
+}
+
+.left {
+    text-align: left;
+    margin-left: 0;
+}
+
+.right {
+    text-align: right;
+    margin-right: ;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#box1 {
+    background-color: #395a25;
+}
+
+#box2 {
+    background-color: #ddffdd;
+}
+
+#box3 {
+    background-color: #ddddff;
+}
+
+#box4 {
+    background-color: #ffffcc;
+}
+
+
+
+
+
+
+
 
 ul {
 	padding: 0;
