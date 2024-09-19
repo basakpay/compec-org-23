@@ -136,7 +136,7 @@ p.section-subtitle.white {
 .cd-hero-slider li {
     position: relative;
     width: 100%;
-    height: 100vh; 
+    height: calc(100vh - 160px); 
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -156,6 +156,10 @@ p.section-subtitle.white {
     color: #ffffff; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+}
+
+.cd-full-width h2 {
+	text-shadow: ghostwhite -0.5px 1px;
 }
 
 /* Arka plan resimleri */
@@ -199,6 +203,9 @@ p.section-subtitle.white {
         font-size: 12px;
         padding: 8px 15px;
     }
+	h1 {
+		top: 70%;
+	}
 }
 
 @media only screen and (max-width: 480px) {

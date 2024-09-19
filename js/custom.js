@@ -114,6 +114,5 @@ $(window).on('load', function(){
 	});  
  
 new Splide( '.splide', {
-	arrows: false,
-	pagination: false
+	arrows: false
 }).mount() // Slider
