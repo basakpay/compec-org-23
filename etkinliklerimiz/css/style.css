@@ -27,20 +27,6 @@ Version: 1.0
 /* ========================================================== */
 /* 			               01. GENERAL LAYOUT                 */
 /* ========================================================== */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    background-color: #f0f0f0;
-    min-height: 100vh;
-    padding: 20px;
-}
 
 .container {
     width: 100%;
@@ -55,16 +41,14 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.image-container {
-	width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+.box:nth-child(1) {
+	margin-top: 120px !important;
 }
 
-.image-container img {
-    width: 20%; /* Genişlik, kutucuğun %90'ı kadar olacak */
+.box img {
+    width: min(12%, 50px); /* Genişlik, kutucuğun %90'ı kadar olacak */
     height: auto; /* Yükseklik, genişlik ile orantılı olarak ayarlanacak */
+	margin-right: 10px;
 }
 
 .left {
@@ -74,7 +58,7 @@ body {
 
 .right {
     text-align: right;
-    margin-right: ;
+    margin-right: 0;
 }
 
 h3 {
@@ -1622,11 +1606,10 @@ ul.benefits.white li i {
 
   .eventname {
 	position: relative;
-	font-size: clamp(10px,4.5vw,30px);
+	font-size: clamp(8px,4.5vw,20px);
 	color: #000;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
-	margin-top: 7.5%;
 	font-weight: bold;
   }
 
